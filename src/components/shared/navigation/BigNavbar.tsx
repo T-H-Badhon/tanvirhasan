@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const BigNavbar = () => {
   return (
-    <div className="mx-5 my-5 px-5 h-16 bg-white shadow-full flex items-center justify-between rounded-xl">
+    <div className="mx-5 my-5 px-5 h-16  shadow-full flex items-center justify-between rounded-xl">
       <div>
         <Image
           src={"/logo/navLogo.png"}

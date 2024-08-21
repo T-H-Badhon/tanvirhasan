@@ -3,9 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primaryText: #021526;
+  --secondaryText: #03346e;
+  --primaryHover: #6eacda;
+  --secondaryHover: #e2e2b6;
 }
 
 .shadow-full {
