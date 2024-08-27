@@ -11,7 +11,7 @@ const NavMenu = () => {
       <Link
         href={"/"}
         className={`${
-          pathName == "/" ? "animate-bounce" : "group"
+          pathName == "/" ? "text-c1" : "group"
         }   h-8 overflow-hidden text-base hover:bg-st hover:text-sh py-1 px-4 rounded-s-full rounded-e-full`}
       >
         <h1 className="group-hover:-translate-y-8 transition-transform duration-300">
@@ -25,7 +25,7 @@ const NavMenu = () => {
       <Link
         href={"/skills"}
         className={`${
-          pathName == "/skills" ? "animate-bounce" : "group"
+          pathName == "/skills" ? "text-c1" : "group"
         }   h-8 overflow-hidden text-base hover:bg-st hover:text-sh py-1 px-4 rounded-s-full rounded-e-full`}
       >
         <h1 className="group-hover:-translate-y-8 transition-transform duration-300">
@@ -39,7 +39,7 @@ const NavMenu = () => {
       <Link
         href={"/experiences"}
         className={`${
-          pathName == "/experiences" ? "animate-bounce" : "group"
+          pathName == "/experiences" ? "text-c1" : "group"
         }   h-8 overflow-hidden text-base hover:bg-st hover:text-sh py-1 px-4 rounded-s-full rounded-e-full`}
       >
         <h1 className="group-hover:-translate-y-8 transition-transform duration-300">
@@ -53,7 +53,7 @@ const NavMenu = () => {
       <Link
         href={"/academic"}
         className={`${
-          pathName == "/academic" ? "animate-bounce" : "group"
+          pathName == "/academic" ? "text-c1" : "group"
         }   h-8 overflow-hidden text-base hover:bg-st hover:text-sh py-1 px-4 rounded-s-full rounded-e-full`}
       >
         <h1 className="group-hover:-translate-y-8 transition-transform duration-300">
@@ -67,7 +67,7 @@ const NavMenu = () => {
       <Link
         href={"/projects"}
         className={`${
-          pathName == "/projects" ? "animate-bounce" : "group"
+          pathName == "/projects" ? "text-c1" : "group"
         }   h-8 overflow-hidden text-base hover:bg-st hover:text-sh py-1 px-4 rounded-s-full rounded-e-full`}
       >
         <h1 className="group-hover:-translate-y-8 transition-transform duration-300">
@@ -81,7 +81,7 @@ const NavMenu = () => {
       <Link
         href={"/contacts"}
         className={`${
-          pathName == "/contacts" ? "animate-bounce" : "group"
+          pathName == "/contacts" ? "text-c1" : "group"
         }   h-8 overflow-hidden text-base hover:bg-st hover:text-sh py-1 px-4 rounded-s-full rounded-e-full`}
       >
         <h1 className="group-hover:-translate-y-8 transition-transform duration-300">

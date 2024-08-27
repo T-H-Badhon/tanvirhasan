@@ -3,10 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --primaryText: #021526;
-  --secondaryText: #03346e;
-  --primaryHover: #6eacda;
-  --secondaryHover: #e2e2b6;
+  --color1: #009bdf;
+  --color2: #000000;
+  --color3: #758398;
 }
 
 .shadow-full {
