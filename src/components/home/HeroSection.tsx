@@ -5,8 +5,8 @@ import { SlPhone } from "react-icons/sl";
 
 const HeroSection = () => {
   return (
-    <div className=" relative w-[100vw] ">
-      <div className="opacity-40 absolute top-0 right-0">
+    <div>
+      <div className="opacity-40 absolute top-0 right-0 z-0">
         <Image
           src={
             "https://websitedemos.net/portfolio-02/wp-content/uploads/sites/864/2021/05/bg-02-free-img.png"
@@ -18,7 +18,7 @@ const HeroSection = () => {
         />
       </div>
 
-      <div className="absolute top-0 pt-24 w-full">
+      <div className="relative z-10 pt-24 w-full">
         <div className=" max-w-[1200px] mx-auto flex justify-between items-center">
           <div className=" space-y-20">
             <div>
