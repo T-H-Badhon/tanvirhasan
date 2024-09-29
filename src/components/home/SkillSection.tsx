@@ -5,9 +5,9 @@ import React from "react";
 const SkillSection = () => {
   return (
     <div>
-      <h1>Skills</h1>
+      <h1 className="text-6xl font-semibold">Skills</h1>
 
-      <div className="space-y-8">
+      <div className="space-y-8 my-10">
         <div>
           <h1>Java Script</h1>
           <ProgressBar
@@ -16,7 +16,7 @@ const SkillSection = () => {
             height="16px"
             isLabelVisible={false}
             labelColor="#09e8d3"
-            className="w-[80%]"
+            className="w-[90%]"
           />
         </div>
         <div>
@@ -27,7 +27,7 @@ const SkillSection = () => {
             height="16px"
             isLabelVisible={false}
             labelColor="#09e8d3"
-            className="w-[80%]"
+            className="w-[90%]"
           />
         </div>
         <div>
@@ -38,7 +38,7 @@ const SkillSection = () => {
             height="16px"
             isLabelVisible={false}
             labelColor="#09e8d3"
-            className="w-[80%]"
+            className="w-[90%]"
           />
         </div>
         <div>
@@ -49,7 +49,7 @@ const SkillSection = () => {
             height="16px"
             isLabelVisible={false}
             labelColor="#09e8d3"
-            className="w-[80%]"
+            className="w-[90%]"
           />
         </div>
         <div>
@@ -60,7 +60,7 @@ const SkillSection = () => {
             height="16px"
             isLabelVisible={false}
             labelColor="#09e8d3"
-            className="w-[80%]"
+            className="w-[90%]"
           />
         </div>
         <div>
@@ -71,7 +71,7 @@ const SkillSection = () => {
             height="16px"
             isLabelVisible={false}
             labelColor="#09e8d3"
-            className="w-[80%]"
+            className="w-[90%]"
           />
         </div>
         <div>
@@ -82,7 +82,7 @@ const SkillSection = () => {
             height="16px"
             isLabelVisible={false}
             labelColor="#09e8d3"
-            className="w-[80%]"
+            className="w-[90%]"
           />
         </div>
       </div>

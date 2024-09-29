@@ -2,8 +2,10 @@ import AboutSection from "@/components/home/AboutSection";
 import Experiences from "@/components/home/Experiences";
 import FixedBg from "@/components/home/FixedBg";
 import HeroSection from "@/components/home/HeroSection";
+import Projects from "@/components/home/Project";
 import SkillSection from "@/components/home/SkillSection";
 import WhatIDoSection from "@/components/home/WhatIDoSection";
+import Footer from "@/components/shared/footer/Footer";
 import Image from "next/image";
 
 const Homepage = () => {
@@ -19,6 +21,8 @@ const Homepage = () => {
         <SkillSection />
         <Experiences />
       </div>
+      <Projects/>
+      <Footer/>
     </div>
   );
 };
